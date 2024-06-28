@@ -1,0 +1,8 @@
+.link {
+  @apply hover:underline hover:text-violet-400 mr-2 transition-all;
+  text-decoration: none !important;
+}
+
+.activeLink {
+  @apply text-violet-500;
+}
